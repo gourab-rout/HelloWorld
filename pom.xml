@@ -3,22 +3,22 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
-	<artifactId>helloworld</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>mule</packaging>
-	<name>Mule helloworld Application</name>
+	<artifactId>helloworldpoc</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>mule</packaging>
+	<name>Mule helloworldpoc Application</name>
 
-    <properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.9.0</mule.version>
-    	<mule.tools.version>1.2</mule.tools.version>
+		<mule.tools.version>1.2</mule.tools.version>
 	</properties>
 
 	<build>
 		<plugins>
-		<plugin>
+			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>2.1</version>
@@ -33,7 +33,7 @@
 					<environment>Sandbox</environment>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
-					<applicationName>helloworldjentest</applicationName>					
+					<applicationName>helloworldjentest</applicationName>
 				</configuration>
 				<executions>
 					<execution>
@@ -51,7 +51,7 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-                    <copyToAppsDirectory>true</copyToAppsDirectory>
+					<copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -88,15 +88,8 @@
 	<dependencies>
 		<!-- Xml configuration -->
 		<dependency>
-        	<groupId>com.mulesoft.muleesb</groupId>
-			<artifactId>mule-core-ee</artifactId>
-			<version>${mule.version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<!-- Xml configuration -->
-		<dependency>
-			<groupId>com.mulesoft.muleesb.modules</groupId>
-			<artifactId>mule-module-spring-config-ee</artifactId>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-module-spring-config</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
@@ -114,14 +107,14 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-        	<groupId>com.mulesoft.muleesb.transports</groupId>
-			<artifactId>mule-transport-jdbc-ee</artifactId>
+			<groupId>org.mule.transports</groupId>
+			<artifactId>mule-transport-jdbc</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-        	<groupId>com.mulesoft.muleesb.transports</groupId>
-			<artifactId>mule-transport-jms-ee</artifactId>
+			<groupId>org.mule.transports</groupId>
+			<artifactId>mule-transport-jms</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
@@ -154,12 +147,6 @@
 	<dependency>
             <groupId>org.mule.modules</groupId>
             <artifactId>mule-module-http</artifactId>
-            <version>${mule.version}</version>
-            <scope>provided</scope>
-        </dependency>
-    <dependency>
-            <groupId>org.mule.modules</groupId>
-            <artifactId>mule-module-spring-config</artifactId>
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
