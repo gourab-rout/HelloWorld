@@ -38,7 +38,7 @@ and Jenkins for CICD pipeline.
 					</execution>
 				</executions>
 			</plugin>
-	```
+```
 ### Jenkins Configuration
    1. When creating a new item in Jenkins, select Maven Project.
    
