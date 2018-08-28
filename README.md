@@ -1,6 +1,6 @@
 # Hello World POC for Jenkins CICD
 
-This application is a poc demonstrating the cicd process with GitHub as Source Code Versioning Tool, Mulesoft Cloudhub as runtime
+This application is a poc demonstrating the cicd process with GitHub as source sode versioning tool, Mulesoft Cloudhub as runtime
 and Jenkins for CICD pipeline.
 
 ## CICD Config
@@ -57,4 +57,4 @@ and Jenkins for CICD pipeline.
    
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/cicd/GitHubWebHook.png)
 	  
-   2. In the Jenkins url section provide the url as : http://iib.icraftsoft.net:8080/github-webhook/
+   2. In the Jenkins url section, provide the url as : http://iib.icraftsoft.net:8080/github-webhook/
