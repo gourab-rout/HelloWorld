@@ -6,9 +6,9 @@ and Jenkins for CICD pipeline.
 ## CICD Config
 
 ### Maven Configuration
-    The Mule project needs to be Mavenised. In the pom file following entry needs to be added for the cloudhub runtime.
+  The Mule project needs to be Mavenised. In the pom file following entry needs to be added for the cloudhub runtime.
 	
-	```
+```
 	  <build>
 		<plugins>
 			<plugin>
