@@ -39,7 +39,7 @@ and Jenkins for CICD pipeline.
 				</executions>
 			</plugin>
 	```
-###Jenkins Configuration
+### Jenkins Configuration
    1. When creating a new item in Jenkins, select Maven Project.
    
    2. Next in General Tab, Configure your Git repository url
@@ -52,7 +52,7 @@ and Jenkins for CICD pipeline.
        it will be redeployed to CloudHub. 	  
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/cicd/Build_pre.PNG)
       
-###GitHub Configuration 
+### GitHub Configuration 
    1. Next in General Tab, Configure your Git repository url
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/cicd/GitHubWebHook.png)
 	  
