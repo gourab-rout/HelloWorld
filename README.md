@@ -52,10 +52,8 @@ and Jenkins for CICD pipeline.
        it will be redeployed to CloudHub. 	  
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/cicd/Build_pre.PNG)
       
- ###GitHub Configuration  
-    1. Add webhook in GitHub for Jenkins integration.
-      ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/cicd/GitHubWebHook.PNG)
-	 
-	2. In the Jenkins url section provide the url as : http://iib.icraftsoft.net:8080/github-webhook/
-
-## Testing the application
+###GitHub Configuration 
+   1. Next in General Tab, Configure your Git repository url
+      ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/cicd/GitHubWebHook.png)
+	  
+   2. In the Jenkins url section provide the url as : http://iib.icraftsoft.net:8080/github-webhook/
