@@ -33,6 +33,7 @@ and Jenkins for CICD pipeline.
 						<id>deploy</id>
 						<phase>deploy</phase>
 						<goals>
+						
 							<goal>deploy</goal>
 						</goals>
 					</execution>
@@ -53,7 +54,7 @@ and Jenkins for CICD pipeline.
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/cicd/Build_pre.PNG)
       
 ### GitHub Configuration 
-   1. Next in General Tab, Configure your Git repository url
+   1. Next in General Tab, Configure your Git repository urlfdf
    
       ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/cicd/GitHubWebHook.png)
 	  
